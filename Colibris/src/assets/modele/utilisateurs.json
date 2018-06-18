@@ -1,0 +1,228 @@
+[
+    {
+        "_id": 0,
+        "civilite": "Mme",
+        "nom" : "Nom",
+        "prenom": "Prénom",
+        "courriel" : "C.test.Cdi@ac-bordeaux.fr",
+        "motDePasse" : "*****",
+        "profil": [
+            {
+                "college" : 0,
+                "droit" : 1,
+                "hierarchie": 1
+            }
+        ]
+    },
+    {
+        "_id": 1,
+        "civilite": "Mme",
+        "nom" : "FAES-HILL",
+        "prenom": "Caroline",
+        "courriel" : "51412cdi@ac-bordeaux.fr",
+        "motDePasse" : "*****",
+        "profil": [
+            {
+                "college" : 1,
+                "droit" : 1,
+                "hierarchie": 1
+            }
+        ]
+    },
+    {
+        "_id": 2,
+        "civilite": "Mme",
+        "nom" : "RODES",
+        "prenom": "Elisabeth",
+        "courriel" : "L.GFebus.Orthez.Cdi@ac-bordeaux.fr",
+        "motDePasse" : "*****",
+        "profil": [
+            {
+                "college" : 3,
+                "droit" : 1,
+                "hierarchie": 1
+            }
+        ]
+    },
+    {
+        "_id": 3,
+        "civilite": "Mme",
+        "nom" : "TORRALBO",
+        "prenom": "Marie France",
+        "courriel" : "L.GFebus.Orthez.Cdi@ac-bordeaux.fr",
+        "motDePasse" : "*****",
+        "profil": [
+            {
+                "college" : 3,
+                "droit" : 1,
+                "hierarchie": 2
+            }
+        ]
+    },
+    {
+        "_id": 4,
+        "civilite": "Mme",
+        "nom" : "DARTIGUES-PEYROU",
+        "prenom": "Laetitia",
+        "courriel" : "C.JMoulin.Artix.Cdi@ac-bordeaux.fr",
+        "motDePasse" : "*****",
+        "profil": [
+            {
+                "@type": "Profil",
+                "college" : 4,
+                "droit" : 1,
+                "hierarchie": 1
+            }
+        ]
+    },
+    {
+        "_id": 5,
+        "civilite": "Mme",
+        "nom" : "GROMYKHOV",
+        "prenom": "Emmanuelle",
+        "courriel" : "C.MDeNavarre.Pau.Cdi@ac-bordeaux.fr",
+        "motDePasse" : "*****",
+        "profil": [
+            {
+                "college" : 5,
+                "droit" : 1,
+                "hierarchie": 1
+            }
+        ]
+    },
+    {
+        "_id": 6,
+        "civilite": "Mme",
+        "nom" : "MARGUIN",
+        "prenom": "Gaëlle",
+        "courriel" : "C.MDeNavarre.Pau.Cdi@ac-bordeaux.fr",
+        "motDePasse" : "*****",
+        "profil": [
+            {
+                "college" : 5,
+                "droit" : 1,
+                "hierarchie": 1
+            }
+        ]
+    },
+    {
+        "_id": 7,
+        "civilite": "Mme",
+        "nom" : "JUSTES",
+        "prenom": "Catherine",
+        "courriel" : "C.JSarailh.Monein.Cdi@ac-bordeaux.fr",
+        "motDePasse" : "*****",
+        "profil": [
+            {
+                "college" : 6,
+                "droit" : 1,
+                "hierarchie": 1
+            }
+        ]
+    },
+    {
+        "_id": 8,
+        "civilite": "Mme",
+        "nom" : "HAYET",
+        "prenom": "Emmanuelle",
+        "courriel" : "NC",
+        "motDePasse" : "*****",
+        "profil": [
+            {
+                "college" : 7,
+                "droit" : 1,
+                "hierarchie": 1
+            }
+        ]
+    },
+    {
+        "_id": 9,
+        "civilite": "Mme",
+        "nom" : "LABONNE",
+        "prenom": "Lucile",
+        "courriel" : "NC",
+        "motDePasse" : "*****",
+        "profil": [
+            {
+                "college" : 8,
+                "droit" : 1,
+                "hierarchie": 1
+            }
+        ]
+    },
+    {
+        "_id": 10,
+        "civilite": "Mme",
+        "nom" : "BAROIN BROTE",
+        "prenom": "Hélène",
+        "courriel" : "C.SerresCastet.Cdi@ac-bordeaux.fr",
+        "motDePasse" : "*****",
+        "profil": [
+            {
+                "college" : 9,
+                "droit" : 1,
+                "hierarchie": 1
+            }
+        ]
+    },
+    {
+        "_id": 10,
+        "civilite": "Mme",
+        "nom" : "ESTREM",
+        "prenom": "Corinne",
+        "courriel" : "C.SerresCastet.Cdi@ac-bordeaux.fr",
+        "motDePasse" : "*****",
+        "profil": [
+            {
+                "college" : 9,
+                "droit" : 1,
+                "hierarchie": 2
+            }
+        ]
+    },
+    {
+        "_id": 11,
+        "civilite": "Mme",
+        "nom" : "LE PLEUX",
+        "prenom": "Claire",
+        "courriel" : "C.JMoulin.Artix.Cdi@ac-bordeaux.fr",
+        "motDePasse" : "*****",
+        "profil": [
+            {
+                "college" : 9,
+                "droit" : 1,
+                "hierarchie": 3
+            }
+        ]
+    },
+    {
+        "_id": 12,
+        "civilite": "Mme",
+        "nom" : "JOTHY",
+        "prenom": "Anne",
+        "courriel" : "C.MRavel.StJeanDeLuz.Cdi@ac-bordeaux.fr",
+        "motDePasse" : "*****",
+        "profil": [
+            {
+                "college" : 10,
+                "droit" : 1,
+                "hierarchie": 1
+            }
+        ]
+    },
+    {
+        "_id": 13,
+        "civilite": "Mme",
+        "nom" : "LAULAN",
+        "prenom": "Sylvaine",
+        "courriel" : "C.MRavel.StJeanDeLuz.Cdi@ac-bordeaux.fr",
+        "motDePasse" : "*****",
+        "profil": [
+            {
+                "college" : 10,
+                "droit" : 1,
+                "hierarchie": 2
+            }
+        ]
+    }
+]

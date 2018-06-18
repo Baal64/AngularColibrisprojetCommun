@@ -1,0 +1,41 @@
+<section>
+  <a href routerLink="/creationSerie" >Créer série</a>
+  <article *ngFor="let s of lSeries.listeSeries, let i = index">
+
+    <div *ngIf="!s.edit">
+      <div class="cover">
+        <img [src]="s.cover" />
+      </div>
+      <div class="content">
+        <div class="title-icons">
+          <h2>{{s.title}}</h2>
+          <div class="icons">
+            <button>
+              <img src="assets/icons/trash.svg" alt="supprimer">
+            </button>
+            <p>
+            <button class="edit" (click)="s.edit = !s.edit">
+              <a href [routerLink]="['/modifSerie', i]">
+                <img src="assets/icons/edit-2.svg" alt="éditer">
+              </a>
+            </button>
+          </div>
+        </div>
+
+        <div class="data-serie">
+          <p>Auteur : {{s.author}}</p>
+          <p>Editeur : {{s.publisher}}</p>
+          <p>Collection : {{s.collection}}</p>
+          <p>Date de publication : {{s.publishedDate}}</p>
+          <p>Langue : {{s.language}}</p>
+          <p>ISBN-13: {{s.ISBN13}}</p>
+          <!-- a modifier -->
+          <p>Nombre d'exemplaires : {{s.series[0].quantite}}</p>
+        </div>
+      </div>
+    </div>
+
+    
+  </article>
+
+</section>
